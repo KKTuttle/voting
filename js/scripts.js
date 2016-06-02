@@ -4,9 +4,11 @@ $(document).ready(function(){
     console.log(age);
 
     if(age < 18){
+      $("#age").hide();
       $(".minor").show();
     }
     else{
+      $("#age").hide();
       $(".voter").show();
     }
 
